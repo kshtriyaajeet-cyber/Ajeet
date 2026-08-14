@@ -16,16 +16,18 @@
 <body>
 
   
-<!-- ================= NAVBAR ================= -->
 <header class="navbar">
 
   <div class="logo">Ajeet Kumar Singh</div>
-  <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
-    ☰
-</button>
 
-  <nav>
+  <button class="mobile-menu-btn"
+          onclick="toggleMobileMenu()">
+    ☰
+  </button>
+
+  <nav id="mobileNav">
     <ul class="nav-links">
+
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#highlights">Highlights</a></li>
@@ -36,6 +38,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#poetry">Poetry</a></li>
       <li><a href="#contact">Contact</a></li>
+
     </ul>
   </nav>
 
@@ -191,12 +194,13 @@
     <h2>Agriculture Student & Digital Innovator</h2>
 
     <p class="about-intro">
-      I am a final-year <strong>B.Sc. (Hons.) Agriculture</strong> student at
-      <strong>Acharya Narendra Deva University of Agriculture & Technology, Ayodhya</strong>.
-      Coming from a farming background, I am passionate about combining
-      <strong>scientific agriculture</strong> with <strong>digital technology</strong>
-      to solve real-world challenges faced by Indian farmers.
-    </p>
+  I am a <strong>B.Sc. (Hons.) Agriculture graduate</strong> from
+  <strong>Acharya Narendra Deva University of Agriculture & Technology (ANDUAT), Ayodhya</strong>.
+  With a strong foundation in agricultural sciences and a farming background,
+  I am passionate about integrating <strong>scientific agriculture</strong> with
+  <strong>digital innovation</strong> to develop practical solutions for Indian farmers
+  and contribute to sustainable agricultural development.
+</p>
 
     <div class="about-highlights-grid">
 
@@ -468,7 +472,7 @@
         </div>
 
         <div class="gallery-item" onclick="openLightbox('speak',1)">
-          <img src="images/speak2.jpg">
+          <img src="images/speak2.JPG">
           <div class="overlay">
             <h4>Anchoring Activity</h4>
             <p>Anchoring and stage management during Soil Day cum RAWE Kisan Goshthi.</p>
@@ -476,7 +480,7 @@
         </div>
 
         <div class="gallery-item" onclick="openLightbox('speak',2)">
-          <img src="images/speak3.jpg">
+          <img src="images/speak3.JPG">
           <div class="overlay">
             <h4>Speech during the Kisan Goshthi</h4>
             <p>Delivered a speech on the benefits of use of the microbial biofertilizer on the Soil Day.</p>
