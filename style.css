@@ -5,22 +5,47 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background: #f8fafc;
-    color: #1f2937;
+    font-family: "Poppins", sans-serif;
+    background: #eef2f7;
+    color: #1e293b;
+    line-height: 1.7;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 /* ==================================================
    MODERN STICKY NAVBAR
 ================================================== */
+@media (max-width: 768px) {
+    .navbar {
+    width: 92%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+margin-right: auto;
+}
 
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 0.88rem;
+    }
+}
 .navbar {
     position: sticky;
     top: 15px;
     z-index: 1000;
 
-    width: 95%;
-    margin: 15px auto;
+    width: 94%;
+    margin: 10px auto;
     padding: 14px 30px;
 
     background: rgba(17, 24, 39, 0.88);
@@ -77,8 +102,9 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .navbar {
+        width: 100% - 24px;
         flex-direction: column;
         gap: 12px;
         padding: 16px;
