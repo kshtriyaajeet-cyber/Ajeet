@@ -128,12 +128,12 @@ mushroom: [
         desc: 'Delivering vote of thanks to the distinguished guests during farewell party.'
     },
     {
-        img: 'images/speak2.jpg',
+        img: 'images/speak2.JPG',
         title: 'Anchoring Activity',
         desc: 'Anchoring and stage management during Soil Day cum RAWE Kisan Goshthi.'
     },
     {
-        img: 'images/speak3.jpg',
+        img: 'images/speak3.JPG',
         title: 'Speech during the Kisan Goshthi',
         desc: 'Delivered a speech on the benefits of microbial biofertilizers on Soil Day.'
     },
