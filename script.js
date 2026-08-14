@@ -948,3 +948,35 @@ function closeWebsitePopup() {
     );
 
 }
+
+/* ==================================================
+   MOBILE NAVIGATION
+================================================== */
+
+function toggleMobileMenu() {
+
+    const nav =
+        document.querySelector(".navbar nav");
+
+    if (!nav) return;
+
+    nav.classList.toggle("mobile-open");
+}
+
+
+/* Close menu after clicking a link */
+
+document.querySelectorAll(".nav-links a").forEach(function(link) {
+
+    link.addEventListener("click", function() {
+
+        const nav =
+            document.querySelector(".navbar nav");
+
+        if (nav) {
+            nav.classList.remove("mobile-open");
+        }
+
+    });
+
+});
